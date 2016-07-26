@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tongzhi_iv"
+            android:src="@mipmap/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tongzhi_title_tv"
+            android:text="新通知"
+            style="@style/smalltext"
+            android:layout_toRightOf="@id/tongzhi_iv"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tongzhi_text_tv"
+            android:text="点击跳转"
+            style="@style/smalltext"
+            android:layout_toRightOf="@id/tongzhi_iv"
+            android:layout_below="@id/tongzhi_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</LinearLayout>
