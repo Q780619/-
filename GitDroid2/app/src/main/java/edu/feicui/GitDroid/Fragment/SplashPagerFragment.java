@@ -1,5 +1,7 @@
 package edu.feicui.GitDroid.Fragment;
 
+import android.animation.ArgbEvaluator;
+import android.animation.IntEvaluator;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -39,15 +41,25 @@ public class SplashPagerFragment extends Fragment {
 
     SplashPagerAdapter sa;
     List<View> list;
+    private int colorGreen;
+    private int colorRed;
+    private int colorYellow;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_splash_pager, container, false);
         ButterKnife.bind(this, view);
-        setView();
+        getview();
+        setview();
         return view;
     }
-    private void setView(){
+    private void getview(){
+        colorGreen = getResources().getColor(R.color.colorGreen);
+        colorRed = getResources().getColor(R.color.colorRed);
+        colorYellow = getResources().getColor(R.color.colorYellow);
+    }
+    private void setview(){
         list = new ArrayList<View>();
         list.add(new Fraone(getContext()));
         list.add(new Fratwo(getContext()));
@@ -65,8 +77,16 @@ public class SplashPagerFragment extends Fragment {
      * 背景动画
      */
     private ViewPager.OnPageChangeListener pageChangeListener = new ViewPager.OnPageChangeListener() {
+        ArgbEvaluator argbEvaluator = new ArgbEvaluator();
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            if(position == 0){
+                int color = (int) argbEvaluator.evaluate(positionOffset,colorGreen,colorRed);
+                content.setBackgroundColor(color);
+            }else if(position == 1){
+                int color = (int) argbEvaluator.evaluate(positionOffset,colorRed,colorYellow);
+                content.setBackgroundColor(color);
+            }
 
         }
 
