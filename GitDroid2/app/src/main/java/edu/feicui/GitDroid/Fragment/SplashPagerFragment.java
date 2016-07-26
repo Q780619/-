@@ -56,7 +56,50 @@ public class SplashPagerFragment extends Fragment {
         sa = new SplashPagerAdapter(list,getActivity());
         viewPager.setAdapter(sa);
         indicator.setViewPager(viewPager);
+
+        viewPager.addOnPageChangeListener(pageChangeListener);
+        viewPager.addOnPageChangeListener(phoneViewListener);
     }
+
+    /**
+     * 背景动画
+     */
+    private ViewPager.OnPageChangeListener pageChangeListener = new ViewPager.OnPageChangeListener() {
+        @Override
+        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+        }
+
+        @Override
+        public void onPageSelected(int position) {
+
+        }
+
+        @Override
+        public void onPageScrollStateChanged(int state) {
+
+        }
+    };
+
+    /**
+     * 手机动画
+     */
+    private ViewPager.OnPageChangeListener phoneViewListener = new ViewPager.OnPageChangeListener() {
+        @Override
+        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+        }
+
+        @Override
+        public void onPageSelected(int position) {
+
+        }
+
+        @Override
+        public void onPageScrollStateChanged(int state) {
+
+        }
+    };
 
     @Override
     public void onDestroyView() {
