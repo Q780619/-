@@ -26,20 +26,20 @@
         android:layout_height="match_parent"
         android:layout_gravity="center">
         <!--手机框-->
-        <!--<ImageView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_gravity="center"-->
-            <!--android:src="@drawable/phone"/>-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/phone"/>
         <!--手机内容-->
-        <!--<ImageView-->
-            <!--android:id="@+id/ivPhoneBlank"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_gravity="center"-->
-            <!--android:layout_marginBottom="8dp"-->
-            <!--android:layout_marginRight="5dp"-->
-            <!--android:src="@drawable/screen_blank_large"/>-->
+        <ImageView
+            android:id="@+id/ivPhoneBlank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/screen_blank_large"/>
         <!--手机内容,默认alpha=0-->
         <ImageView
             android:id="@+id/ivPhoneFont"

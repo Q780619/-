@@ -30,7 +30,7 @@ public class SplashPagerFragment extends Fragment {
     ViewPager viewPager;
     @Bind(R.id.indicator)
     CircleIndicator indicator;
-//    @Bind(R.id.ivPhoneBlank)
+    @Bind(R.id.ivPhoneBlank)
     ImageView ivPhoneBlank;
     @Bind(R.id.ivPhoneFont)
     ImageView ivPhoneFont;
@@ -41,9 +41,12 @@ public class SplashPagerFragment extends Fragment {
 
     SplashPagerAdapter sa;
     List<View> list;
+
     private int colorGreen;
     private int colorRed;
     private int colorYellow;
+
+
 
     @Nullable
     @Override
@@ -105,9 +108,19 @@ public class SplashPagerFragment extends Fragment {
      * 手机动画
      */
     private ViewPager.OnPageChangeListener phoneViewListener = new ViewPager.OnPageChangeListener() {
+
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
+            if(position == 0){
+                float scale = 0.3f+0.7f*positionOffset;
+                layoutPhone.setScaleX(scale);
+                layoutPhone.setScaleY(scale);
+                int scrol = (int) ((positionOffset-1)*230);
+                layoutPhone.setTranslationX(scrol);
+                ivPhoneFont.setAlpha(positionOffset);
+            }else if(position == 1){
+                layoutPhone.setTranslationX(-positionOffsetPixels);
+            }
         }
 
         @Override
