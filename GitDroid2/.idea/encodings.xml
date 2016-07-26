@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/src/main/res/color" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bubble1.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bubble2.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bubble3.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/circle_indicator.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/desktop.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/gif_loading.gif" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_avatar.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_filter_list.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_hot_coder.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_hot_repo.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_login.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_my_repo.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_recommend.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_search.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_share.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_star.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_tips.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_trend.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/phone.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/rest.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/screen_blank_large.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/screen_large.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tablet.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_repo_info.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_load_footer.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_pager_0.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_pager_1.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_pager_2.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_gank.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_gank_pager.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_hot_repo.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_repo_list.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_splash_pager.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_content_main.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_item_gank.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_item_repo.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_nav_header_main.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_context_favorite.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main_drawer.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_popup_repo_groups.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
